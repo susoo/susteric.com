@@ -2,19 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>susteric.com</title>
     <style>
-        body {
+        html, body {
             margin: 0;
             padding: 0;
+            overflow: hidden;
             background-color: #333333;
+            height: 100%;
+            width: 100%;
+        }
+        
+        body {
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
             font-size: 5rem;
         }
+        
         .emoji {
             font-family: 'Segoe UI Emoji', 'Apple Color Emoji', sans-serif;
         }
